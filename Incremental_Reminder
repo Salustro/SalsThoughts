@@ -1,0 +1,38 @@
+//This is for an incrimental reminder
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+  //Local Variables
+  int time
+  string incriment
+  
+  //Welcome Prompt
+  cout << "Welcome to the Reminder Setup!" << endl;
+  //Get incriment
+  cout << "Please Enter the time incriment you'll wish to use: " <<endl;
+  cin >> incriment
+  //If Statement on incrimental need
+    if (incriment == "hr" || incriment == "hour" || incriment == "hours")
+      cout << "How many instances would you like to occur? " << endl;
+      cin >> time;
+      elseif (incriment == "min" || incriment == "minute")
+      cout << "How many instances would you like to occur? " << endl;
+      cin >> time;
+      elseif (incriment == "sec" || incriment == "seconds" || incriment == "second")
+      cout << "How many instances would you like to occur? " << endl;
+      cin >> time;
+      
+      
+  //else    
+      else
+      cout << "Invalid format"
+
+  cout << endl;
+  system("pause");
+  return 0;
+  
+ }
