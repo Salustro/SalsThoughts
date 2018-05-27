@@ -1,0 +1,50 @@
+//CodingGame.com's Motor Bike game
+
+//Classes of BIKE and GAME are created, Bike handles the motorbikes behaviors within each GAME played
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+//Constant integer for Games Played
+const int GAMES_PLAYED = 1;
+//Constant integer for bikes playing
+const int BIKE = 4
+
+
+int main()
+{
+ int bike[BIKE]
+ //bikeCount 
+ int bikeCount, surviveCount;
+ //string variable for width of map
+ string map[4]
+//Local Variables of positioning on x-y axis, current speed, health status
+int x, y, speed, aliveness;
+//Local Variables of older positioning on x-y axis, previous speed, previous health status
+int x_old, y_old, speed_old, aliveness_old;
+
+Load(speed)
+
+Reload()
+
+Jump()
+
+Move()
+
+Steer(direction)
+
+InitRound()
+
+InitOnce()
+//Once initiates be first
+Simulate(combo)
+
+Solve()
+//Solve should call the Simulate function
+
+cout << endl;
+system("pause");
+return 0;
+}
